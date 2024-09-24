@@ -47,7 +47,7 @@ const Success = async ({
           <p>Request appointmen details:</p>
           <div className="flex items-center gap-3">
             <Image
-              src={doctor?.image!}
+              src={doctor?.image || ""}
               height={100}
               width={100}
               alt="doctor"
